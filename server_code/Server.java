@@ -1,13 +1,3 @@
-/*
-* EE422C Final Project submission by
-* Replace <...> with your actual data.
-* <Ahad Karedia>
-* <aak3229>
-* <17805>
-* Spring 2021
-*/
-
-
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;

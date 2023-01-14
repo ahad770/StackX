@@ -1,12 +1,3 @@
-/*
-* EE422C Final Project submission by
-* Replace <...> with your actual data.
-* <Ahad Karedia>
-* <aak3229>
-* <17805>
-* Spring 2021
-*/
-
 import javafx.geometry.HPos;
 import javafx.geometry.Pos;
 import javafx.scene.layout.GridPane;

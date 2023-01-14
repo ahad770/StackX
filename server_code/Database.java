@@ -1,13 +1,3 @@
-/*
-* EE422C Final Project submission by
-* Replace <...> with your actual data.
-* <Ahad Karedia>
-* <aak3229>
-* <17805>
-* Spring 2021
-*/
-
-
 import java.util.Iterator;
 import org.bson.Document;
 import org.json.JSONObject;
@@ -33,9 +23,7 @@ public class Database {
 	private MongoCollection<Document> items;
 	
 	public Database() {
-		// mongodb+srv://ahad770:<password>@stackx.h7wb0.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
-		//sarah1
-		cs = new ConnectionString("mongodb+srv://ahad770:sarah1@stackx.h7wb0.mongodb.net/StackX?retryWrites=true&w=majority");
+		cs = new ConnectionString("");
 		settings = MongoClientSettings.builder().applyConnectionString(cs).build();
 		mongoClient = MongoClients.create(settings);
 		db = mongoClient.getDatabase("final");

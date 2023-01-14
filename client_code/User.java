@@ -1,12 +1,3 @@
-/*
-* EE422C Final Project submission by
-* Replace <...> with your actual data.
-* <Ahad Karedia>
-* <aak3229>
-* <17805>
-* Spring 2021
-*/
-
 public class User {
 	private String name;
 	private String username;
